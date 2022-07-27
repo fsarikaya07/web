@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+#sidebar{
+    display: block;
+    background-color: darkorange;
+    color: white;
+    width: 200px ;
+    height: 100vh;
+    text-align: left;
+    float: left;
+    list-style: none;
+}
+.title{
+    padding: 10px;
+    text-align: center;
+}
+#sidebar ul li{
+    font-size: large;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+a{
+    color: black;
+}
+a:hover {
+    color: white; ;
+    
+}
+#icons {
+    padding: 10px;
+    column-gap: 20px;
+    font-size: 50px;
+
+    text-align: ;
+    display: flex;
+}
+
+
+#text{
+    padding: 10px;
+    text-align: left;
+    display: block;
+    float: right;
+    display: contents;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    
+    text-indent: 20px;
+    width: calc(100vh - 100px);
+    height: 100vh;
+    
+}
+
+/* home */
+#home{
+    text-align: center;
+    font-size: 100px;
+    background-image: url("pexels-prakash-aryal-38326.jpg") ;
+    width: 100%vw;
+    height: 100vh;
+    color:  #430b12 ;
+    
+}
